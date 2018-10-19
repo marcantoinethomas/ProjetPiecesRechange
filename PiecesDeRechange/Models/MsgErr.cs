@@ -9,7 +9,7 @@ namespace PiecesDeRechange.Models
     {
         public int messageError { get; set; }
         public int employeeId { get; set; }
-        public Date MsgDate { get; set; }
+        public DateTime MsgDate { get; set; }
         public string  message { get; set; }
         public string  velocite { get; set; }
 
