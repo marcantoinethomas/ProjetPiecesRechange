@@ -26,5 +26,10 @@ namespace PiecesDeRechange.Controllers
 
             return View();
         }
+
+        public ActionResult AddMsgErr()
+        {
+            return View();
+        }
     }
 }
