@@ -280,6 +280,7 @@
     <Content Include="Views\Home\AddMsgErr.cshtml" />
     <Content Include="Views\Ingenieur\AddParts.cshtml" />
     <Content Include="Views\Ingenieur\AddMachine.cshtml" />
+    <Content Include="Views\Ingenieur\CreateDemande.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

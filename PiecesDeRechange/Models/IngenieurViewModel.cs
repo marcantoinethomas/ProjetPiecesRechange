@@ -52,6 +52,8 @@ namespace PiecesDeRechange.Models
         public int PartId { get; set; }
         public DateTime DemandeDate { get; set; }
         public string Demandestatus { get; set; }
+        public int MachineId { get; set; }
+        public int QtyPiece { get; set; }
 
 
     }

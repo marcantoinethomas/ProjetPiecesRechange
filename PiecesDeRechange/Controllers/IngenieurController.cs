@@ -8,20 +8,46 @@ namespace PiecesDeRechange.Controllers
 {
     public class IngenieurController : Controller
     {
+        public ActionResult Index()
+        {
+            return Redirect("/Home/Index");
+        }
         // GET: Ingenieur
         public ActionResult AddParts()
         {
             return View();
         }
-        public ActionResult Index()
+        [HttpPost]
+        public ActionResult AddParts(FormCollection collection)
         {
-            return Redirect("/Home/Index");
+            return View();
         }
+
+
         public ActionResult AddMachine() {
            
             //add here viewbac with list of category and list of parts 
             return View();
 
+        }
+        [HttpPost]
+        public ActionResult AddMachine(FormCollection collection)
+        {
+            return View();
+        }
+
+        //CreateDemande
+
+        public ActionResult CreateDemande()
+        {
+
+            return View();
+
+        }
+        [HttpPost]
+        public ActionResult CreateDemande(FormCollection collection)
+        {
+            return View();
         }
 
 
