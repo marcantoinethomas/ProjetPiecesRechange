@@ -70,4 +70,8 @@ namespace PiecesDeRechange.Models
         public string DescripType { get; set; }
         public string DescripStatut { get; set; }
     }
+
+
+
+
 }

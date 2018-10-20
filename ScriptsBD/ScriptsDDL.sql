@@ -30,6 +30,7 @@ GO
 INSERT INTO TypeEmploye (description) VALUES ('ADMIN')
 INSERT INTO TypeEmploye (description) VALUES ('OPERATEUR')
 INSERT INTO TypeEmploye (description) VALUES ('GESTIONNAIRE')
+INSERT INTO TypeEmploye (description) VALUES ('EMPLOYE')
 GO
 IF OBJECT_ID (N'Employe', N'U') IS NOT NULL 
 	DROP TABLE Employe
@@ -43,7 +44,7 @@ noApp VARCHAR(16),
 ville VARCHAR(50),
 province VARCHAR(50),
 codePostal VARCHAR(16),
-typeEmpID int,
+typeEmpID int DEFAULT 4,
 courriel VARCHAR(50),
 motDePasse VARCHAR(50),
 statut Char(1)DEFAULT 'H',
@@ -70,14 +71,14 @@ CREATE TABLE Piece(
 pieceId int IDENTITY(1, 1) PRIMARY KEY,
 nom  VARCHAR(50) not null,
 prix money ,
-photo image
+photo VARCHAR(50)
 )
 GO
 IF OBJECT_ID (N'Machine', N'U') IS NOT NULL 
 	DROP TABLE Machine
 GO
 CREATE TABLE Machine(
-machineId int PRIMARY KEY,
+machineId int IDENTITY(1, 1) PRIMARY KEY,
 categorie VARCHAR(50),
 machineName VARCHAR(50)
 )

@@ -50,7 +50,39 @@ namespace PiecesDeRechange.DAO
             }
             return myList;
         }
+        public static int Create(RegisterViewModel model, SqlConnection myConnection)
+        {
+            int result = 0;
+            try
+            {
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandText = "CreerEmploye";
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                cmd.Connection = myConnection;
+                cmd.Parameters.Add(new SqlParameter("@nomEmp", model.LastName));
+                cmd.Parameters.Add(new SqlParameter("@prenomEmp", model.FirstName));
+                cmd.Parameters.Add(new SqlParameter("@rue", model.Street));
+                cmd.Parameters.Add(new SqlParameter("@noApp", model.NoApp));
+                cmd.Parameters.Add(new SqlParameter("@ville", model.City));
+                cmd.Parameters.Add(new SqlParameter("@province", model.Province));
+                cmd.Parameters.Add(new SqlParameter("@codePostal", model.CodePostal));
+                cmd.Parameters.Add(new SqlParameter("@courriel", model.Email));
+                cmd.Parameters.Add(new SqlParameter("@motDePasse", model.Password));
+                myConnection.Open();
+                result = cmd.ExecuteNonQuery();
+                return result;
+            }
+            catch (SqlException)
+            {
 
+            }
+            finally
+            {
+                myConnection.Close();
+            }
+
+            return result;
+        }
 
     }
 }
