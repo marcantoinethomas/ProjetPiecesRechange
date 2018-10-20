@@ -25,3 +25,16 @@ C:\Users\1795657\Documents\GitHub\ProjetPiecesRechange\Resources\Resources\obj\D
 C:\Users\1795657\Documents\GitHub\ProjetPiecesRechange\Resources\Resources\obj\Debug\fr\Resources.resources.dll
 C:\Users\1795657\Documents\GitHub\ProjetPiecesRechange\Resources\Resources\obj\Debug\Resources.dll
 C:\Users\1795657\Documents\GitHub\ProjetPiecesRechange\Resources\Resources\obj\Debug\Resources.pdb
+C:\Users\1795162\Documents\GitHub\ProjetPiecesRechange\Resources\Resources\bin\Debug\Resources.dll
+C:\Users\1795162\Documents\GitHub\ProjetPiecesRechange\Resources\Resources\bin\Debug\Resources.pdb
+C:\Users\1795162\Documents\GitHub\ProjetPiecesRechange\Resources\Resources\bin\Debug\en\Resources.resources.dll
+C:\Users\1795162\Documents\GitHub\ProjetPiecesRechange\Resources\Resources\bin\Debug\fr\Resources.resources.dll
+C:\Users\1795162\Documents\GitHub\ProjetPiecesRechange\Resources\Resources\obj\Debug\Resources.csprojResolveAssemblyReference.cache
+C:\Users\1795162\Documents\GitHub\ProjetPiecesRechange\Resources\Resources\obj\Debug\Resources.Resources.resources
+C:\Users\1795162\Documents\GitHub\ProjetPiecesRechange\Resources\Resources\obj\Debug\Resources.Resources.en.resources
+C:\Users\1795162\Documents\GitHub\ProjetPiecesRechange\Resources\Resources\obj\Debug\Resources.Resources.fr.resources
+C:\Users\1795162\Documents\GitHub\ProjetPiecesRechange\Resources\Resources\obj\Debug\Resources.csproj.GenerateResource.Cache
+C:\Users\1795162\Documents\GitHub\ProjetPiecesRechange\Resources\Resources\obj\Debug\en\Resources.resources.dll
+C:\Users\1795162\Documents\GitHub\ProjetPiecesRechange\Resources\Resources\obj\Debug\fr\Resources.resources.dll
+C:\Users\1795162\Documents\GitHub\ProjetPiecesRechange\Resources\Resources\obj\Debug\Resources.dll
+C:\Users\1795162\Documents\GitHub\ProjetPiecesRechange\Resources\Resources\obj\Debug\Resources.pdb
