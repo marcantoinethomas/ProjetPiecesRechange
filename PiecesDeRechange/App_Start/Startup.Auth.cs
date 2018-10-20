@@ -6,6 +6,8 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using PiecesDeRechange.Models;
+using System.Configuration;
+using System.Data.SqlClient;
 
 namespace PiecesDeRechange
 {
@@ -37,6 +39,24 @@ namespace PiecesDeRechange
             //   appSecret: "");
 
             //app.UseGoogleAuthentication();
+        }
+
+        public static class BDConnection
+        {
+            private static SqlConnection myConnection;
+            public static SqlConnection GetSqlConnection()
+            {
+                if (myConnection != null)
+                {
+                    return myConnection;
+                }
+                else
+                {
+                    myConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["maBD"].ConnectionString);
+                    return myConnection;
+                }
+
+            }
         }
     }
 }

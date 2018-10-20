@@ -28,6 +28,45 @@
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-default">Administration</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="caret"></span>
+                    <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li>@Html.ActionLink(Resources.Resources.ActivateEmployee, "AddEmployee", "Admin")</li>
+                    <li>@Html.ActionLink(Resources.Resources.AddMachine, "AddMachine", "Admin")</li>
+                    <li>@Html.ActionLink(Resources.Resources.AddParts, "AddParts", "Admin")</li>
+                </ul>
+            </div> 
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-default">Operateur</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="caret"></span>
+                    <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li>@Html.ActionLink(Resources.Resources.ActivateEmployee, "AddEmployee", "Admin")</li>
+                    <li>@Html.ActionLink(Resources.Resources.AddMachine, "AddMachine", "Admin")</li>
+                    <li>@Html.ActionLink(Resources.Resources.AddParts, "AddParts", "Admin")</li>
+                </ul>
+            </div> 
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-default">Gestionnaire</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="caret"></span>
+                    <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li>@Html.ActionLink(Resources.Resources.ActivateEmployee, "AddEmployee", "Admin")</li>
+                    <li>@Html.ActionLink(Resources.Resources.AddMachine, "AddMachine", "Admin")</li>
+                    <li>@Html.ActionLink(Resources.Resources.AddParts, "AddParts", "Admin")</li>
+                </ul>
+            </div> 
         </div>
     </div>
     <div class="container body-content">

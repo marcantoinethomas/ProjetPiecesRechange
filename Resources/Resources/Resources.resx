@@ -240,4 +240,13 @@
   <data name="ComparePasswordError" xml:space="preserve">
     <value>The password is not not same</value>
   </data>
+  <data name="ActivateEmployee" xml:space="preserve">
+    <value>Activate Employees</value>
+  </data>
+  <data name="AddMachine" xml:space="preserve">
+    <value>Add a machine</value>
+  </data>
+  <data name="AddParts" xml:space="preserve">
+    <value>Add parts to a machine</value>
+  </data>
 </root>

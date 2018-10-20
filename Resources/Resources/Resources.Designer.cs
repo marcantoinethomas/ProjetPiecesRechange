@@ -19,7 +19,7 @@ namespace Resources {
     // à l'aide d'un outil, tel que ResGen ou Visual Studio.
     // Pour ajouter ou supprimer un membre, modifiez votre fichier .ResX, puis réexécutez ResGen
     // avec l'option /str ou régénérez votre projet VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Resources {
@@ -70,11 +70,38 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Activate Employees.
+        /// </summary>
+        public static string ActivateEmployee {
+            get {
+                return ResourceManager.GetString("ActivateEmployee", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Add a machine.
+        /// </summary>
+        public static string AddMachine {
+            get {
+                return ResourceManager.GetString("AddMachine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Add new account.
         /// </summary>
         public static string AddNewAccount {
             get {
                 return ResourceManager.GetString("AddNewAccount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Add parts to a machine.
+        /// </summary>
+        public static string AddParts {
+            get {
+                return ResourceManager.GetString("AddParts", resourceCulture);
             }
         }
         

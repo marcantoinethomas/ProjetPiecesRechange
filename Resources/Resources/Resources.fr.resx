@@ -240,4 +240,13 @@
   <data name="AddNewAccount" xml:space="preserve">
     <value>Créer un nouveau compte</value>
   </data>
+  <data name="ActivateEmployee" xml:space="preserve">
+    <value>Activer les employés</value>
+  </data>
+  <data name="AddMachine" xml:space="preserve">
+    <value>Ajouter une machine</value>
+  </data>
+  <data name="AddParts" xml:space="preserve">
+    <value>Ajouter une pièce</value>
+  </data>
 </root>
