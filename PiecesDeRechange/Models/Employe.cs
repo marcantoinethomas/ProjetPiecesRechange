@@ -50,7 +50,7 @@ namespace PiecesDeRechange.Models
         [Display(Name = "TypeEmp", ResourceType = typeof(Resources.Resources))]
         [Required(ErrorMessageResourceType = typeof(Resources.Resources),
            ErrorMessageResourceName = "TypeEmpRequired")]
-        public TypeEmploye Type { get; set; }
+        public string Type { get; set; }
 
         [Display(Name = "Password", ResourceType = typeof(Resources.Resources))]
         [Required(ErrorMessageResourceType = typeof(Resources.Resources),
@@ -65,5 +65,7 @@ namespace PiecesDeRechange.Models
         [RegularExpression(".+@.+\\..+", ErrorMessageResourceType = typeof(Resources.Resources),
                                          ErrorMessageResourceName = "EmailInvalid")]
         public string Courriel { get; set; }
+
+        public string Statut { get; set; }
     }
 }

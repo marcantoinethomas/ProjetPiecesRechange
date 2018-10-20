@@ -1,17 +1,30 @@
-﻿using System;
+﻿using PiecesDeRechange.Models;
+using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using static PiecesDeRechange.Startup;
 
 namespace PiecesDeRechange.Controllers
 {
     public class AdminController : Controller
     {
+        //Etablir la connexion
+        static SqlConnection myConnection = BDConnection.GetSqlConnection();
+
         // GET: Admin
-        public ActionResult Index()
+        public ActionResult ActivateEmployee()
         {
             return View();
+        }
+
+        // POST: Admin
+        [HttpPost]
+        public ActionResult ActivateEmployee(Employe employe)
+        {
+            return RedirectToAction("Index");
         }
 
         // GET: Admin/Details/5
