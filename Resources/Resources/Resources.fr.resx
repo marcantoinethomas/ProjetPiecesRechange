@@ -249,4 +249,16 @@
   <data name="AddParts" xml:space="preserve">
     <value>Ajouter une pièce</value>
   </data>
+  <data name="NamePart" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="NamePartRequired" xml:space="preserve">
+    <value>Le nom de la piéce est obligatoire SVP !</value>
+  </data>
+  <data name="PricePart" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="PricePartRequired" xml:space="preserve">
+    <value>le prix de la piéce est obligaoire SVP !</value>
+  </data>
 </root>

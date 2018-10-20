@@ -62,9 +62,21 @@
                     <span class="sr-only">Toggle Dropdown</span>
                 </button>
                 <ul class="dropdown-menu">
-                    <li>@Html.ActionLink(Resources.Resources.ActivateEmployee, "AddEmployee", "Admin")</li>
-                    <li>@Html.ActionLink(Resources.Resources.AddMachine, "AddMachine", "Admin")</li>
-                    <li>@Html.ActionLink(Resources.Resources.AddParts, "AddParts", "Admin")</li>
+                    <li>@Html.ActionLink(Resources.Resources.ActivateEmployee, "", "Gestionnaire")</li>
+                    <li>@Html.ActionLink(Resources.Resources.AddMachine, "AddMachine", "Gestionnaire")</li>
+                    <li>@Html.ActionLink(Resources.Resources.AddParts, "AddParts", "Gestionnaire")</li>
+                </ul>
+            </div> 
+            <div class="btn-group">
+                <button type="button" class="btn btn-default">Ingenieur</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="caret"></span>
+                    <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li>@Html.ActionLink(Resources.Resources.ActivateEmployee, "AjouterPiece", "Ingenieur")</li>
+                    <li>@Html.ActionLink(Resources.Resources.AddMachine, "AjouterMachine", "Ingenieur")</li>
+                    <li>@Html.ActionLink(Resources.Resources.AddParts, "FaireDemande", "Ingenieur")</li>
                 </ul>
             </div> 
         </div>

@@ -249,4 +249,13 @@
   <data name="AddParts" xml:space="preserve">
     <value>Add parts to a machine</value>
   </data>
+  <data name="NamePart" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="PricePart" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="PricePartRequired" xml:space="preserve">
+    <value>The price of part is needed Please !</value>
+  </data>
 </root>
