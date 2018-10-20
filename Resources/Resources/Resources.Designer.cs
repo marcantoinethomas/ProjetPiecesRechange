@@ -178,6 +178,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Create Demande.
+        /// </summary>
+        public static string CreateDemande {
+            get {
+                return ResourceManager.GetString("CreateDemande", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Disconnect.
         /// </summary>
         public static string Disconnect {
@@ -322,11 +331,38 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Machine Name.
+        /// </summary>
+        public static string MachineName {
+            get {
+                return ResourceManager.GetString("MachineName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à the name of the machine is needed please !.
+        /// </summary>
+        public static string MachineNameRequired {
+            get {
+                return ResourceManager.GetString("MachineNameRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Name.
         /// </summary>
         public static string NamePart {
             get {
                 return ResourceManager.GetString("NamePart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à The name of the Part needed SVP !.
+        /// </summary>
+        public static string NamePartRequired {
+            get {
+                return ResourceManager.GetString("NamePartRequired", resourceCulture);
             }
         }
         

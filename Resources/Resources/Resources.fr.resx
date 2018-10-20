@@ -261,4 +261,13 @@
   <data name="PricePartRequired" xml:space="preserve">
     <value>le prix de la piéce est obligaoire SVP !</value>
   </data>
+  <data name="MachineName" xml:space="preserve">
+    <value>Machine Nom</value>
+  </data>
+  <data name="MachineNameRequired" xml:space="preserve">
+    <value>le nom de machine est obligatoire </value>
+  </data>
+  <data name="CreateDemande" xml:space="preserve">
+    <value>Crée Demande </value>
+  </data>
 </root>

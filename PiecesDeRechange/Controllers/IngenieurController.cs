@@ -8,82 +8,50 @@ namespace PiecesDeRechange.Controllers
 {
     public class IngenieurController : Controller
     {
-        // GET: Ingenieur
         public ActionResult Index()
         {
-            return View();
+            return Redirect("/Home/Index");
         }
-
-        // GET: Ingenieur/Details/5
-        public ActionResult Details(int id)
+        // GET: Ingenieur
+        public ActionResult AddParts()
         {
             return View();
         }
-
-        // GET: Ingenieur/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: Ingenieur/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add insert logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: Ingenieur/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult AddParts(FormCollection collection)
         {
             return View();
         }
 
-        // POST: Ingenieur/Edit/5
-        [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add update logic here
 
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
+        public ActionResult AddMachine() {
+           
+            //add here viewbac with list of category and list of parts 
+            return View();
+
         }
-
-        // GET: Ingenieur/Delete/5
-        public ActionResult Delete(int id)
+        [HttpPost]
+        public ActionResult AddMachine(FormCollection collection)
         {
             return View();
         }
 
-        // POST: Ingenieur/Delete/5
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add delete logic here
+        //CreateDemande
 
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
+        public ActionResult CreateDemande()
+        {
+
+            return View();
+
         }
+        [HttpPost]
+        public ActionResult CreateDemande(FormCollection collection)
+        {
+            return View();
+        }
+
+
+
+
     }
 }
