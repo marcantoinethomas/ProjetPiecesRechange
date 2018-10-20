@@ -322,6 +322,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Name.
+        /// </summary>
+        public static string NamePart {
+            get {
+                return ResourceManager.GetString("NamePart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Appart Number.
         /// </summary>
         public static string NumberApp {
@@ -354,6 +363,24 @@ namespace Resources {
         public static string PasswordRequired {
             get {
                 return ResourceManager.GetString("PasswordRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Price.
+        /// </summary>
+        public static string PricePart {
+            get {
+                return ResourceManager.GetString("PricePart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à The price of part is needed Please !.
+        /// </summary>
+        public static string PricePartRequired {
+            get {
+                return ResourceManager.GetString("PricePartRequired", resourceCulture);
             }
         }
         
