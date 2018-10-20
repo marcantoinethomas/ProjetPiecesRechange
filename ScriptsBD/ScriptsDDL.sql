@@ -46,7 +46,7 @@ codePostal VARCHAR(16),
 typeEmpID int,
 courriel VARCHAR(50),
 motDePasse VARCHAR(50),
-statut Char(1),
+statut Char(1)DEFAULT 'H',
 CONSTRAINT typeEmpID_FK FOREIGN KEY(typeEmpID) REFERENCES TypeEmploye(typeEmpID)
 )
 GO

@@ -15,7 +15,7 @@ namespace PiecesDeRechange.DAO
             try
             {
                 SqlCommand cmd = new SqlCommand();
-                cmd.CommandText = "GetListeFrais";
+                cmd.CommandText = "GetListeEmployes";
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
                 cmd.Connection = myConnection;
                 myConnection.Open();
@@ -24,16 +24,19 @@ namespace PiecesDeRechange.DAO
                 {
                     Employe employe = new Employe();
                     employe.ID = Int32.Parse(reader["employeID"].ToString());
-                    employe.Nom = reader["nomEmp"].ToString();
-                    employe.Prenom = reader["prenomEmp"].ToString();
-                    employe.Rue =reader["rue"].ToString();
-                    employe.NoApp = reader["noApp"].ToString();
-                    employe.Ville = reader["ville"].ToString();
+                    employe.LastName = reader["nomEmp"].ToString();
+                    employe.FirstName = reader["prenomEmp"].ToString();
+                    employe.Street =reader["rue"].ToString();
+                    employe.NumberApp = reader["noApp"].ToString();
+                    employe.City = reader["ville"].ToString();
                     employe.Province = reader["province"].ToString();
                     employe.CodePostal = reader["codePostal"].ToString();
-                    employe.Type = reader["typeEmp"].ToString();
-                    employe.Courriel = reader["courriel"].ToString();
+                    employe.TypeEmp = Int32.Parse(reader["typeEmpID"].ToString());
+                    employe.DescripType = reader["descripType"].ToString();
+                    employe.Email = reader["courriel"].ToString();
+                    employe.Password = reader["motDePasse"].ToString();
                     employe.Statut = reader["statut"].ToString();
+                    employe.DescripStatut = reader["descripStatut"].ToString();
                     myList.Add(employe);
                 }
             }
