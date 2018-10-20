@@ -178,6 +178,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Create Demande.
+        /// </summary>
+        public static string CreateDemande {
+            get {
+                return ResourceManager.GetString("CreateDemande", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Disconnect.
         /// </summary>
         public static string Disconnect {

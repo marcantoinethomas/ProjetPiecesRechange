@@ -267,4 +267,7 @@
   <data name="NamePartRequired" xml:space="preserve">
     <value>The name of the Part needed SVP !</value>
   </data>
+  <data name="CreateDemande" xml:space="preserve">
+    <value>Create Demande</value>
+  </data>
 </root>

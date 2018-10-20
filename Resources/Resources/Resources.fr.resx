@@ -267,4 +267,7 @@
   <data name="MachineNameRequired" xml:space="preserve">
     <value>le nom de machine est obligatoire </value>
   </data>
+  <data name="CreateDemande" xml:space="preserve">
+    <value>Crée Demande </value>
+  </data>
 </root>
