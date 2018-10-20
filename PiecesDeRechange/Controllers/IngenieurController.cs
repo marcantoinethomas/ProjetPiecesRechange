@@ -27,7 +27,7 @@ namespace PiecesDeRechange.Controllers
         [HttpPost]
         public ActionResult AddParts(FormCollection collection)
         {
-            IngenieurDAO.AddPart(collection);
+            IngenieurDAO.AddPart(collection, myConnection);
 
             ViewBag.Message = "Added";
 

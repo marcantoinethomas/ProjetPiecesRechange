@@ -20,3 +20,13 @@ FROM Employe
 ORDER BY nomEmp, prenomEmp
 END
 GO
+
+
+CREATE PROCEDURE [dbo].[InsertPart]
+	@NamePart varchar(50),
+	@PricePart varchar(50),
+	@Photo varchar(50)
+AS
+Begin
+	insert into Piece (nom,prix,photo) values (@NamePart,@PricePart,@Photo)
+End
