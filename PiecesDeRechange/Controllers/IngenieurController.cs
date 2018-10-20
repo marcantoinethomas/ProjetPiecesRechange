@@ -18,7 +18,8 @@ namespace PiecesDeRechange.Controllers
             return Redirect("/Home/Index");
         }
         public ActionResult AddMachine() {
-
+           
+            //add here viewbac with list of category and list of parts 
             return View();
 
         }
