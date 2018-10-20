@@ -258,4 +258,13 @@
   <data name="PricePartRequired" xml:space="preserve">
     <value>The price of part is needed Please !</value>
   </data>
+  <data name="MachineName" xml:space="preserve">
+    <value>Machine Name</value>
+  </data>
+  <data name="MachineNameRequired" xml:space="preserve">
+    <value>the name of the machine is needed please !</value>
+  </data>
+  <data name="NamePartRequired" xml:space="preserve">
+    <value>The name of the Part needed SVP !</value>
+  </data>
 </root>

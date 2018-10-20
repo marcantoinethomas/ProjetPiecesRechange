@@ -30,9 +30,15 @@ namespace PiecesDeRechange.Models
         public String Photo { get; set; }
 
     }
+ 
     public class Machine {
 
         public int MachineId { get; set; }
+
+        [Display(Name = "MachineName", ResourceType = typeof(Resources.Resources))]
+        [Required(ErrorMessageResourceType = typeof(Resources.Resources),
+             ErrorMessageResourceName = "MachineNameRequired")]
+        public string  MachineName { get; set; }
         public string  Categorie { get; set; }
         public String[]  ListParts{ get; set; }
 
