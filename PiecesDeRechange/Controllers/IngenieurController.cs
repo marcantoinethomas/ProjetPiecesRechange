@@ -61,6 +61,10 @@ namespace PiecesDeRechange.Controllers
         [HttpPost]
         public ActionResult CreateDemande(FormCollection collection)
         {
+
+            IngenieurDAO.AddDemande(collection, myConnection);
+
+            ViewBag.Message = "Demande Added";
             return View();
         }
 
