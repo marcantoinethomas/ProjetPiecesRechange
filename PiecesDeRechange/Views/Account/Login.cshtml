@@ -6,12 +6,12 @@
 
 <h2>@ViewBag.Title.</h2>
 <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-10">
         <section id="loginForm">
             @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
             {
                 @Html.AntiForgeryToken()
-                <h4>Utilisez un compte local pour vous connecter.</h4>
+      
                 <hr />
                 @Html.ValidationSummary(true, "", new { @class = "text-danger" })
                 <div class="form-group">
@@ -38,11 +38,11 @@
                 </div>
                 <div class="form-group">
                     <div class="col-md-offset-2 col-md-10">
-                        <input type="submit" value="Connexion" class="btn btn-default" />
+                        <input type="submit" class="btn btn-default" value=@Resources.Resources.BoutonLog />
                     </div>
                 </div>
                 <p>
-                    @Html.ActionLink("S'inscrire comme nouvel utilisateur", "Register")
+                    @Html.ActionLink(Resources.Resources.RegisterNewUser, "Register")
                 </p>
                 @* Activer ceci une fois que la confirmation de votre compte est activée pour la fonctionnalité de réinitialisation du mot de passe
                     <p>

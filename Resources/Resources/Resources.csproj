@@ -42,88 +42,34 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ResLogin.Designer.cs">
-      <DependentUpon>ResLogin.resx</DependentUpon>
+    <Compile Include="Resources.en.Designer.cs">
+      <DependentUpon>Resources.en.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="ResLogin.en.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ResLogin.en.resx</DependentUpon>
-    </Compile>
-    <Compile Include="ResLogin.fr.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ResLogin.fr.resx</DependentUpon>
-    </Compile>
-    <Compile Include="ResMenu.Designer.cs">
-      <DependentUpon>ResMenu.resx</DependentUpon>
+    <Compile Include="Resources.fr.Designer.cs">
+      <DependentUpon>Resources.fr.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="ResMenu.en.Designer.cs">
+    <Compile Include="Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ResMenu.en.resx</DependentUpon>
-    </Compile>
-    <Compile Include="ResMenu.fr.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ResMenu.fr.resx</DependentUpon>
-    </Compile>
-    <Compile Include="ResRegister.Designer.cs">
-      <DependentUpon>ResRegister.resx</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="ResRegister.en.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ResRegister.en.resx</DependentUpon>
-    </Compile>
-    <Compile Include="ResRegister.fr.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ResRegister.fr.resx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="ResLogin.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ResLogin.Designer.cs</LastGenOutput>
+    <EmbeddedResource Include="Resources.en.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.en.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="ResLogin.en.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ResLogin.en.Designer.cs</LastGenOutput>
+    <EmbeddedResource Include="Resources.fr.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.fr.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="ResLogin.fr.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ResLogin.fr.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ResMenu.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ResMenu.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ResMenu.en.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ResMenu.en.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ResMenu.fr.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ResMenu.fr.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ResRegister.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ResRegister.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ResRegister.en.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ResRegister.en.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ResRegister.fr.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ResRegister.fr.Designer.cs</LastGenOutput>
+    <EmbeddedResource Include="Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
