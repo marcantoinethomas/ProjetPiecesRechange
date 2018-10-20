@@ -19,15 +19,42 @@ namespace PiecesDeRechange.DAO
                 cmd.CommandText = "InsertPart";
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
                 cmd.Connection = myConnection;
-                cmd.Parameters.Add(new SqlParameter("@NamePart", collection.GetValue("NamePart")));
-                cmd.Parameters.Add(new SqlParameter("@PricePart", collection.GetValue("PricePart")));
-                cmd.Parameters.Add(new SqlParameter("@Photo", collection.GetValue("Photo")));
+                cmd.Parameters.Add(new SqlParameter("@NamePart", collection["NamePart"]));
+                cmd.Parameters.Add(new SqlParameter("@PricePart", collection["PricePart"]));
+                cmd.Parameters.Add(new SqlParameter("@Photo", collection["Photo"]));
 
 
                 myConnection.Open();
 
-                cmd.ExecuteNonQuery();
+               int x =  cmd.ExecuteNonQuery();
                
+            }
+            catch (SqlException)
+            {
+
+            }
+            finally
+            {
+                myConnection.Close();
+            }
+
+        }
+        internal static void AddMachine(FormCollection collection, SqlConnection myConnection)
+        {
+            try
+            {
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandText = "InsertMachine";
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                cmd.Connection = myConnection;
+                cmd.Parameters.Add(new SqlParameter("@param1", collection["MachineName"]));
+                cmd.Parameters.Add(new SqlParameter("@param2", collection["Categorie"]));
+
+
+                myConnection.Open();
+
+                int x = cmd.ExecuteNonQuery();
+
             }
             catch (SqlException)
             {

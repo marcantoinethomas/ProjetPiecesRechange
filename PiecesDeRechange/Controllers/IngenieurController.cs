@@ -29,21 +29,24 @@ namespace PiecesDeRechange.Controllers
         {
             IngenieurDAO.AddPart(collection, myConnection);
 
-            ViewBag.Message = "Added";
+            ViewBag.Message = "Part Added";
 
             return View();
         }
 
 
         public ActionResult AddMachine() {
-           
-            //add here viewbac with list of category and list of parts 
+         
             return View();
 
         }
         [HttpPost]
         public ActionResult AddMachine(FormCollection collection)
         {
+
+            IngenieurDAO.AddMachine(collection, myConnection);
+
+            ViewBag.Message = "Machine Added";
             return View();
         }
 
