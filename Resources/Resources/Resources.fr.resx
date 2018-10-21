@@ -190,7 +190,7 @@
     <value>Se souvenir de moi</value>
   </data>
   <data name="Street" xml:space="preserve">
-    <value>Ville</value>
+    <value>Rue</value>
   </data>
   <data name="TypeEmp" xml:space="preserve">
     <value>Type employé</value>
