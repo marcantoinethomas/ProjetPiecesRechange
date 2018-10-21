@@ -100,10 +100,13 @@ GO
 CREATE TABLE Fournisseur(
 fournisseurId int IDENTITY(1, 1) PRIMARY KEY,
 nom VARCHAR(50) not null,
-adresseID int ,
 telephone VARCHAR(20), 
 categorie VARCHAR(50),
-CONSTRAINT adress_Four_ID_FK FOREIGN KEY(adresseID) REFERENCES Adresse(adresseID)
+rue VARCHAR(50),
+noApp VARCHAR(16),
+ville VARCHAR(50),
+province VARCHAR(50),
+codePostal VARCHAR(16)
 )
 GO
 IF OBJECT_ID (N'Demande', N'U') IS NOT NULL 

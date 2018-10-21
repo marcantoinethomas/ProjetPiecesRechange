@@ -120,8 +120,8 @@
   <data name="About" xml:space="preserve">
     <value>A Propos</value>
   </data>
-  <data name="BoutonLog" xml:space="preserve">
-    <value>Se connecter</value>
+  <data name="BoutonLogin" xml:space="preserve">
+    <value>Valider</value>
   </data>
   <data name="City" xml:space="preserve">
     <value>Ville</value>

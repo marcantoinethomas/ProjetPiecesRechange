@@ -84,5 +84,52 @@ namespace PiecesDeRechange.DAO
             return result;
         }
 
+        public static Employe Login(LoginViewModel model, SqlConnection myConnection)
+        {
+            Employe employe = new Employe();
+            try
+            {
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandText = "VerifierLogin";
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                cmd.Connection = myConnection;
+                cmd.Parameters.Add(new SqlParameter("@courriel", model.Email));
+                cmd.Parameters.Add(new SqlParameter("@motDePasse", model.Password));
+                myConnection.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                if (reader.HasRows)
+                {
+                    reader.Read();
+                    employe.ID = Int32.Parse(reader["employeID"].ToString());
+                    employe.LastName = reader["nomEmp"].ToString();
+                    employe.FirstName = reader["prenomEmp"].ToString();
+                    employe.Street = reader["rue"].ToString();
+                    employe.NumberApp = reader["noApp"].ToString();
+                    employe.City = reader["ville"].ToString();
+                    employe.Province = reader["province"].ToString();
+                    employe.CodePostal = reader["codePostal"].ToString();
+                    employe.TypeEmp = Int32.Parse(reader["typeEmpID"].ToString());
+                    employe.DescripType = reader["descripType"].ToString();
+                    employe.Email = reader["courriel"].ToString();
+                    employe.Password = reader["motDePasse"].ToString();
+                    employe.Statut = reader["statut"].ToString();
+                    employe.DescripStatut = reader["descripStatut"].ToString();
+                }
+                else
+                {
+                    employe.Email = "none";
+                }
+            }
+            catch (SqlException)
+            {
+
+            }
+            finally
+            {
+                myConnection.Close();
+            }
+
+            return employe;
+        }
     }
 }

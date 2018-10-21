@@ -19,7 +19,7 @@ namespace Resources {
     // à l'aide d'un outil, tel que ResGen ou Visual Studio.
     // Pour ajouter ou supprimer un membre, modifiez votre fichier .ResX, puis réexécutez ResGen
     // avec l'option /str ou régénérez votre projet VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Resources {
@@ -106,11 +106,11 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Recherche une chaîne localisée semblable à Log in.
+        ///   Recherche une chaîne localisée semblable à OK.
         /// </summary>
-        public static string BoutonLog {
+        public static string BoutonLogin {
             get {
-                return ResourceManager.GetString("BoutonLog", resourceCulture);
+                return ResourceManager.GetString("BoutonLogin", resourceCulture);
             }
         }
         
