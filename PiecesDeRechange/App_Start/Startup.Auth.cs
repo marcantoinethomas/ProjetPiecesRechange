@@ -52,7 +52,7 @@ namespace PiecesDeRechange
                 }
                 else
                 {
-                    myConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["maBD"].ConnectionString);
+                    myConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString);
                     return myConnection;
                 }
 

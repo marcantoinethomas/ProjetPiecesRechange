@@ -50,6 +50,7 @@ namespace PiecesDeRechange.DAO
             }
             return myList;
         }
+
         public static int Create(RegisterViewModel model, SqlConnection myConnection)
         {
             int result = 0;

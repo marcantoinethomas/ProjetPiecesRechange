@@ -88,7 +88,5 @@ END
 GO
 
 /*
-DECLARE @li_retour int
-EXEC VerifierLogin 'admin@gmail.com', 'admin', @li_retour out
---SELECT @li_retour
+exec VerifierLogin @courriel=N'admin@gmail.com',@motDePasse=N'admin'
 */
