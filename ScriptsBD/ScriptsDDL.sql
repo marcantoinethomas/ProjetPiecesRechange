@@ -7,146 +7,98 @@ CREATE DATABASE SpareParts
 GO
 USE SpareParts
 GO
-IF OBJECT_ID (N'Adresse', N'U') IS NOT NULL 
-	DROP TABLE Adresse
-GO
-CREATE TABLE Adresse(
-adresseID int IDENTITY(1, 1) PRIMARY KEY,
-rue VARCHAR(50),
-noApp VARCHAR(16),
-ville VARCHAR(50),
-province VARCHAR(50),
-codePostal VARCHAR(16)
-)
-GO
-IF OBJECT_ID (N'TypeEmploye', N'U') IS NOT NULL 
-	DROP TABLE TypeEmploye
-GO
-CREATE TABLE TypeEmploye(
-typeEmpID int IDENTITY(1, 1) PRIMARY KEY,
-description VARCHAR(50) NOT NULL
-)
-GO
-INSERT INTO TypeEmploye (description) VALUES ('ADMIN')
-INSERT INTO TypeEmploye (description) VALUES ('OPERATEUR')
-INSERT INTO TypeEmploye (description) VALUES ('GESTIONNAIRE')
-INSERT INTO TypeEmploye (description) VALUES ('EMPLOYE')
-GO
 IF OBJECT_ID (N'Employe', N'U') IS NOT NULL 
 	DROP TABLE Employe
 GO
 CREATE TABLE Employe(
-employeID int IDENTITY(1, 1) PRIMARY KEY,
-nomEmp VARCHAR(50) NOT NULL,
-prenomEmp VARCHAR(50) NOT NULL,
-rue VARCHAR(50),
-noApp VARCHAR(16),
-ville VARCHAR(50),
-province VARCHAR(50),
-codePostal VARCHAR(16),
-typeEmpID int DEFAULT 4,
-courriel VARCHAR(50),
-motDePasse VARCHAR(50),
-statut Char(1)DEFAULT 'H',
-CONSTRAINT typeEmpID_FK FOREIGN KEY(typeEmpID) REFERENCES TypeEmploye(typeEmpID)
-)
-GO
-IF OBJECT_ID (N'StatutEmploye', N'U') IS NOT NULL 
-	DROP TABLE StatutEmploye
-GO
-CREATE TABLE StatutEmploye(
-statutID Char(1) PRIMARY KEY,
-description VARCHAR(50) NOT NULL
-)
-GO
-INSERT INTO StatutEmploye(statutID, description) VALUES ('H', 'En attente')
-INSERT INTO StatutEmploye(statutID, description) VALUES ('A','Actif')
-INSERT INTO StatutEmploye(statutID, description) VALUES ('I', 'Inactif')
-GO
-
-IF OBJECT_ID (N'Piece', N'U') IS NOT NULL 
-	DROP TABLE Piece
-GO
-CREATE TABLE Piece(
-pieceId int IDENTITY(1, 1) PRIMARY KEY,
-nom  VARCHAR(50) not null,
-prix money ,
-photo VARCHAR(50)
+EmployeID int IDENTITY(1, 1) PRIMARY KEY,
+FirstName VARCHAR(50) NOT NULL,
+LastName VARCHAR(50) NOT NULL,
+Street VARCHAR(50),
+NumberApp VARCHAR(16),
+City VARCHAR(50),
+Province VARCHAR(50),
+CodePostal VARCHAR(16),
+TypeEmp VARCHAR(50) DEFAULT 'OPERATEUR',
+Password VARCHAR(50),
+Email VARCHAR(50),
+Statut VARCHAR(20)DEFAULT 'EN ATTENTE'
 )
 GO
 IF OBJECT_ID (N'Machine', N'U') IS NOT NULL 
 	DROP TABLE Machine
 GO
 CREATE TABLE Machine(
-machineId int IDENTITY(1, 1) PRIMARY KEY,
+machineID int IDENTITY(1, 1) PRIMARY KEY,
 categorie VARCHAR(50),
 machineName VARCHAR(50)
 )
 GO
-IF OBJECT_ID (N'MachinePiece', N'U') IS NOT NULL 
-	DROP TABLE MachinePiece
+IF OBJECT_ID (N'Piece', N'U') IS NOT NULL 
+	DROP TABLE Piece
 GO
-CREATE TABLE MachinePiece(
-machineId int,
-pieceId int,
-CONSTRAINT machine_Piece_ID_PK PRIMARY KEY (machineId, pieceId),
-CONSTRAINT machinePId_FK FOREIGN KEY(machineId) REFERENCES Machine(machineId),
-CONSTRAINT piecePId_FK FOREIGN KEY(pieceId) REFERENCES Piece(pieceId)
+CREATE TABLE Piece(
+pieceID int IDENTITY(1, 1) PRIMARY KEY,
+machineID int,
+nom  VARCHAR(50) not null,
+prix money ,
+photo VARCHAR(50),
+CONSTRAINT Piece_Machine_ID_FK FOREIGN KEY(machineID) REFERENCES Machine(machineID)
 )
 GO
 IF OBJECT_ID (N'Fournisseur', N'U') IS NOT NULL 
 	DROP TABLE Fournisseur
 GO
 CREATE TABLE Fournisseur(
-fournisseurId int IDENTITY(1, 1) PRIMARY KEY,
+fournisseurID int IDENTITY(1, 1) PRIMARY KEY,
 nom VARCHAR(50) not null,
 telephone VARCHAR(20), 
 categorie VARCHAR(50),
-rue VARCHAR(50),
-noApp VARCHAR(16),
-ville VARCHAR(50),
-province VARCHAR(50),
-codePostal VARCHAR(16)
+Street VARCHAR(50),
+NumberApp VARCHAR(16),
+City VARCHAR(50),
+Province VARCHAR(50),
+CodePostal VARCHAR(16)
 )
 GO
 IF OBJECT_ID (N'Demande', N'U') IS NOT NULL 
 	DROP TABLE Demande
 GO
 CREATE TABLE Demande(
-demandeId int IDENTITY(1, 1) PRIMARY KEY,
-employeID int,
-pieceId int ,
-machineId int ,
-machinePartId int ,
+demandeID int IDENTITY(1, 1) PRIMARY KEY,
+EmployeID int,
+pieceID int ,
+machineID int ,
+machinePartID int ,
 demandeDate DateTime ,
 demandeStatut  VARCHAR(20),
 pieceQuantite int,
-CONSTRAINT Demande_Piece_ID_FK FOREIGN KEY(pieceId) REFERENCES Piece(pieceId),
-CONSTRAINT Demande_Machine_ID_FK FOREIGN KEY(machineId) REFERENCES Machine(machineId),
-CONSTRAINT Demande_Employe_ID_FK FOREIGN KEY(employeID) REFERENCES Employe(employeID)
+CONSTRAINT Demande_Piece_ID_FK FOREIGN KEY(pieceID) REFERENCES Piece(pieceID),
+CONSTRAINT Demande_Machine_ID_FK FOREIGN KEY(machineID) REFERENCES Machine(machineID),
+CONSTRAINT Demande_Employe_ID_FK FOREIGN KEY(EmployeID) REFERENCES Employe(EmployeID)
 )
 GO
 IF OBJECT_ID (N'Commande', N'U') IS NOT NULL 
 	DROP TABLE Commande
 GO
 CREATE TABLE Commande(
-commandeId int IDENTITY(1, 1) PRIMARY KEY,
-employeID int,
-pieceId int ,
-fournisseurId int,
+commandeID int IDENTITY(1, 1) PRIMARY KEY,
+EmployeID int,
+pieceID int ,
+fournisseurID int,
 commandeDate DateTime ,
 demandeStatut  VARCHAR(20),
-CONSTRAINT Commande_Piece_ID_FK FOREIGN KEY(pieceId) REFERENCES Piece(pieceId),
-CONSTRAINT Commande_Employe_ID_FK FOREIGN KEY(employeID) REFERENCES Employe(employeID),
-CONSTRAINT Commande_Fournisseur_ID_FK FOREIGN KEY(fournisseurId) REFERENCES Fournisseur(fournisseurId)
+CONSTRAINT Commande_Piece_ID_FK FOREIGN KEY(pieceID) REFERENCES Piece(pieceID),
+CONSTRAINT Commande_Employe_ID_FK FOREIGN KEY(EmployeID) REFERENCES Employe(EmployeID),
+CONSTRAINT Commande_Fournisseur_ID_FK FOREIGN KEY(fournisseurID) REFERENCES Fournisseur(fournisseurID)
 )
 GO
 IF OBJECT_ID (N'LoginLogs', N'U') IS NOT NULL 
 	DROP TABLE LoginLogs
 GO
 CREATE TABLE LoginLogs(
-logId int IDENTITY(1, 1) PRIMARY KEY,
-employeID int ,
+logID int IDENTITY(1, 1) PRIMARY KEY,
+EmployeID int ,
 loginDate DATETime DEFAULT getDate()
 
 )
@@ -155,14 +107,22 @@ IF OBJECT_ID (N'MessageError', N'U') IS NOT NULL
 	DROP TABLE MessageError
 GO
 CREATE TABLE MessageError(
-messageErrorId int IDENTITY(1, 1) PRIMARY KEY,
-employeID int ,
+messageErrorID int IDENTITY(1, 1) PRIMARY KEY,
+EmployeID int ,
 messageErrorDate DateTime DEFAULT getDate(),
 message VARCHAR(200),
 velocite VARCHAR(20),
-CONSTRAINT MessageError_Employe_ID_FK FOREIGN KEY(employeID) REFERENCES Employe(employeID)
+CONSTRAINT MessageError_Employe_ID_FK FOREIGN KEY(EmployeID) REFERENCES Employe(EmployeID)
 )
 GO
+
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,139 @@
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\csc.exe
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\csc.exe.config
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\csc.rsp
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\csi.exe
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\csi.rsp
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\System.AppContext.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\System.Collections.Immutable.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\System.IO.FileSystem.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\System.Reflection.Metadata.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\vbc.exe
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\vbc.exe.config
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\vbc.rsp
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\VBCSCompiler.exe
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\VBCSCompiler.exe.config
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\WebApiServices.dll.config
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\WebApiServices.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\WebApiServices.pdb
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\Newtonsoft.Json.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\System.Net.Http.Formatting.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\System.Web.Http.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\System.Web.Http.WebHost.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\Newtonsoft.Json.xml
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\System.Net.Http.Formatting.xml
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\System.Web.Http.xml
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\System.Web.Http.WebHost.xml
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\fr\System.Net.Http.Formatting.resources.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\fr\System.Web.Http.resources.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\fr\System.Web.Http.WebHost.resources.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\obj\Debug\WebApiServices.csprojAssemblyReference.cache
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\obj\Debug\WebApiServices.csproj.CoreCompileInputs.cache
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\obj\Debug\WebApiServices.csproj.CopyComplete
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\obj\Debug\WebApiServices.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\obj\Debug\WebApiServices.pdb
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\csc.exe
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\csc.exe.config
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\csc.rsp
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\csi.exe
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\csi.rsp
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\System.AppContext.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\vbc.exe
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\vbc.exe.config
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\vbc.rsp
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\VBCSCompiler.exe
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\WebApiServices.dll.config
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\WebApiServices.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\WebApiServices.pdb
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\Newtonsoft.Json.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\System.Net.Http.Formatting.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\System.Web.Http.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\System.Web.Http.WebHost.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\Newtonsoft.Json.xml
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\System.Net.Http.Formatting.xml
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\System.Web.Http.xml
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\System.Web.Http.WebHost.xml
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\fr\System.Net.Http.Formatting.resources.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\fr\System.Web.Http.resources.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\fr\System.Web.Http.WebHost.resources.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\obj\Debug\WebApiServices.csprojResolveAssemblyReference.cache
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\obj\Debug\WebApiServices.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\obj\Debug\WebApiServices.pdb
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\csc.exe
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\csc.exe.config
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\csc.rsp
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\csi.exe
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\csi.rsp
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\System.AppContext.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\vbc.exe
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\vbc.exe.config
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\vbc.rsp
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\VBCSCompiler.exe
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\WebApiServices.dll.config
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\WebApiServices.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\WebApiServices.pdb
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\Newtonsoft.Json.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\System.Net.Http.Formatting.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\System.Web.Http.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\System.Web.Http.WebHost.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\Newtonsoft.Json.xml
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\System.Net.Http.Formatting.xml
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\System.Web.Http.xml
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\System.Web.Http.WebHost.xml
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\fr\System.Net.Http.Formatting.resources.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\fr\System.Web.Http.resources.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\bin\fr\System.Web.Http.WebHost.resources.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\obj\Debug\WebApiServices.csprojAssemblyReference.cache
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\obj\Debug\WebApiServices.csproj.CoreCompileInputs.cache
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\obj\Debug\WebApiServices.csproj.CopyComplete
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\obj\Debug\WebApiServices.dll
+C:\Users\1795657\source\ProjetSyntheseFinal\PieceDeRechange\WebApiServices\obj\Debug\WebApiServices.pdb

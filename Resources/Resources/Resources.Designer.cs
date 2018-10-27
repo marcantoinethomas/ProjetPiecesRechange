@@ -106,11 +106,29 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Back to List.
+        /// </summary>
+        public static string BackToList {
+            get {
+                return ResourceManager.GetString("BackToList", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à OK.
         /// </summary>
         public static string BoutonLogin {
             get {
                 return ResourceManager.GetString("BoutonLogin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Change Password.
+        /// </summary>
+        public static string ChangePassword {
+            get {
+                return ResourceManager.GetString("ChangePassword", resourceCulture);
             }
         }
         
@@ -192,6 +210,15 @@ namespace Resources {
         public static string Disconnect {
             get {
                 return ResourceManager.GetString("Disconnect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Edit Profil.
+        /// </summary>
+        public static string EditProfil {
+            get {
+                return ResourceManager.GetString("EditProfil", resourceCulture);
             }
         }
         
@@ -309,6 +336,15 @@ namespace Resources {
         public static string Login {
             get {
                 return ResourceManager.GetString("Login", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Username or password is incorrect.
+        /// </summary>
+        public static string LoginError {
+            get {
+                return ResourceManager.GetString("LoginError", resourceCulture);
             }
         }
         
@@ -475,6 +511,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Status.
+        /// </summary>
+        public static string Statut {
+            get {
+                return ResourceManager.GetString("Statut", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Street.
         /// </summary>
         public static string Street {
@@ -507,6 +552,15 @@ namespace Resources {
         public static string TypeEmpRequired {
             get {
                 return ResourceManager.GetString("TypeEmpRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à View Profil.
+        /// </summary>
+        public static string ViewProfil {
+            get {
+                return ResourceManager.GetString("ViewProfil", resourceCulture);
             }
         }
         

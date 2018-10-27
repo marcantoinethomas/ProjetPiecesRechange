@@ -38,3 +38,84 @@ C:\Users\1795162\Documents\GitHub\ProjetPiecesRechange\Resources\Resources\obj\D
 C:\Users\1795162\Documents\GitHub\ProjetPiecesRechange\Resources\Resources\obj\Debug\fr\Resources.resources.dll
 C:\Users\1795162\Documents\GitHub\ProjetPiecesRechange\Resources\Resources\obj\Debug\Resources.dll
 C:\Users\1795162\Documents\GitHub\ProjetPiecesRechange\Resources\Resources\obj\Debug\Resources.pdb
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\PieceDeRechange\Resources\Resources\bin\Debug\Resources.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\PieceDeRechange\Resources\Resources\bin\Debug\Resources.pdb
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\PieceDeRechange\Resources\Resources\bin\Debug\en\Resources.resources.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\PieceDeRechange\Resources\Resources\bin\Debug\fr\Resources.resources.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\PieceDeRechange\Resources\Resources\obj\Debug\Resources.csprojResolveAssemblyReference.cache
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\PieceDeRechange\Resources\Resources\obj\Debug\Resources.Resources.resources
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\PieceDeRechange\Resources\Resources\obj\Debug\Resources.Resources.en.resources
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\PieceDeRechange\Resources\Resources\obj\Debug\Resources.Resources.fr.resources
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\PieceDeRechange\Resources\Resources\obj\Debug\Resources.csproj.GenerateResource.Cache
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\PieceDeRechange\Resources\Resources\obj\Debug\en\Resources.resources.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\PieceDeRechange\Resources\Resources\obj\Debug\fr\Resources.resources.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\PieceDeRechange\Resources\Resources\obj\Debug\Resources.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\PieceDeRechange\Resources\Resources\obj\Debug\Resources.pdb
+C:\Users\1795657\source\repos\PieceDeRechange\Resources\Resources\bin\Debug\Resources.dll
+C:\Users\1795657\source\repos\PieceDeRechange\Resources\Resources\bin\Debug\Resources.pdb
+C:\Users\1795657\source\repos\PieceDeRechange\Resources\Resources\bin\Debug\en\Resources.resources.dll
+C:\Users\1795657\source\repos\PieceDeRechange\Resources\Resources\bin\Debug\fr\Resources.resources.dll
+C:\Users\1795657\source\repos\PieceDeRechange\Resources\Resources\obj\Debug\Resources.csprojAssemblyReference.cache
+C:\Users\1795657\source\repos\PieceDeRechange\Resources\Resources\obj\Debug\Resources.Resources.resources
+C:\Users\1795657\source\repos\PieceDeRechange\Resources\Resources\obj\Debug\Resources.Resources.en.resources
+C:\Users\1795657\source\repos\PieceDeRechange\Resources\Resources\obj\Debug\Resources.Resources.fr.resources
+C:\Users\1795657\source\repos\PieceDeRechange\Resources\Resources\obj\Debug\Resources.csproj.GenerateResource.cache
+C:\Users\1795657\source\repos\PieceDeRechange\Resources\Resources\obj\Debug\Resources.csproj.CoreCompileInputs.cache
+C:\Users\1795657\source\repos\PieceDeRechange\Resources\Resources\obj\Debug\en\Resources.resources.dll
+C:\Users\1795657\source\repos\PieceDeRechange\Resources\Resources\obj\Debug\fr\Resources.resources.dll
+C:\Users\1795657\source\repos\PieceDeRechange\Resources\Resources\obj\Debug\Resources.dll
+C:\Users\1795657\source\repos\PieceDeRechange\Resources\Resources\obj\Debug\Resources.pdb
+C:\Users\marca\source\repos\PieceDeRechange\Resources\Resources\bin\Debug\Resources.dll
+C:\Users\marca\source\repos\PieceDeRechange\Resources\Resources\bin\Debug\Resources.pdb
+C:\Users\marca\source\repos\PieceDeRechange\Resources\Resources\bin\Debug\en\Resources.resources.dll
+C:\Users\marca\source\repos\PieceDeRechange\Resources\Resources\bin\Debug\fr\Resources.resources.dll
+C:\Users\marca\source\repos\PieceDeRechange\Resources\Resources\obj\Debug\Resources.csprojAssemblyReference.cache
+C:\Users\marca\source\repos\PieceDeRechange\Resources\Resources\obj\Debug\Resources.Resources.resources
+C:\Users\marca\source\repos\PieceDeRechange\Resources\Resources\obj\Debug\Resources.Resources.en.resources
+C:\Users\marca\source\repos\PieceDeRechange\Resources\Resources\obj\Debug\Resources.Resources.fr.resources
+C:\Users\marca\source\repos\PieceDeRechange\Resources\Resources\obj\Debug\Resources.csproj.GenerateResource.cache
+C:\Users\marca\source\repos\PieceDeRechange\Resources\Resources\obj\Debug\Resources.csproj.CoreCompileInputs.cache
+C:\Users\marca\source\repos\PieceDeRechange\Resources\Resources\obj\Debug\en\Resources.resources.dll
+C:\Users\marca\source\repos\PieceDeRechange\Resources\Resources\obj\Debug\fr\Resources.resources.dll
+C:\Users\marca\source\repos\PieceDeRechange\Resources\Resources\obj\Debug\Resources.dll
+C:\Users\marca\source\repos\PieceDeRechange\Resources\Resources\obj\Debug\Resources.pdb
+C:\Temp\ProjetSynthese\PieceDeRechange\Resources\Resources\bin\Debug\Resources.dll
+C:\Temp\ProjetSynthese\PieceDeRechange\Resources\Resources\bin\Debug\Resources.pdb
+C:\Temp\ProjetSynthese\PieceDeRechange\Resources\Resources\bin\Debug\en\Resources.resources.dll
+C:\Temp\ProjetSynthese\PieceDeRechange\Resources\Resources\bin\Debug\fr\Resources.resources.dll
+C:\Temp\ProjetSynthese\PieceDeRechange\Resources\Resources\obj\Debug\Resources.Resources.resources
+C:\Temp\ProjetSynthese\PieceDeRechange\Resources\Resources\obj\Debug\Resources.Resources.en.resources
+C:\Temp\ProjetSynthese\PieceDeRechange\Resources\Resources\obj\Debug\Resources.Resources.fr.resources
+C:\Temp\ProjetSynthese\PieceDeRechange\Resources\Resources\obj\Debug\Resources.csproj.GenerateResource.cache
+C:\Temp\ProjetSynthese\PieceDeRechange\Resources\Resources\obj\Debug\en\Resources.resources.dll
+C:\Temp\ProjetSynthese\PieceDeRechange\Resources\Resources\obj\Debug\fr\Resources.resources.dll
+C:\Temp\ProjetSynthese\PieceDeRechange\Resources\Resources\obj\Debug\Resources.dll
+C:\Temp\ProjetSynthese\PieceDeRechange\Resources\Resources\obj\Debug\Resources.pdb
+C:\Temp\ProjetSynthese\PieceDeRechange\Resources\Resources\obj\Debug\Resources.csprojResolveAssemblyReference.cache
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\bin\Debug\Resources.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\bin\Debug\Resources.pdb
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\bin\Debug\en\Resources.resources.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\bin\Debug\fr\Resources.resources.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\obj\Debug\Resources.csprojAssemblyReference.cache
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\obj\Debug\Resources.Resources.resources
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\obj\Debug\Resources.Resources.en.resources
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\obj\Debug\Resources.Resources.fr.resources
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\obj\Debug\Resources.csproj.GenerateResource.cache
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\obj\Debug\Resources.csproj.CoreCompileInputs.cache
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\obj\Debug\en\Resources.resources.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\obj\Debug\fr\Resources.resources.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\obj\Debug\Resources.dll
+C:\Temp\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\obj\Debug\Resources.pdb
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\bin\Debug\Resources.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\bin\Debug\Resources.pdb
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\bin\Debug\en\Resources.resources.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\bin\Debug\fr\Resources.resources.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\obj\Debug\Resources.csprojResolveAssemblyReference.cache
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\obj\Debug\Resources.Resources.resources
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\obj\Debug\Resources.Resources.en.resources
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\obj\Debug\Resources.Resources.fr.resources
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\obj\Debug\Resources.csproj.GenerateResource.Cache
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\obj\Debug\en\Resources.resources.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\obj\Debug\fr\Resources.resources.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\obj\Debug\Resources.dll
+C:\Users\1795657\Documents\Visual Studio 2017\Projects\ProjetSyntheseFinal\PieceDeRechange\Resources\Resources\obj\Debug\Resources.pdb

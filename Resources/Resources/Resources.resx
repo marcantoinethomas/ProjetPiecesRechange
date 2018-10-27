@@ -270,4 +270,22 @@
   <data name="CreateDemande" xml:space="preserve">
     <value>Create Demande</value>
   </data>
+  <data name="BackToList" xml:space="preserve">
+    <value>Back to List</value>
+  </data>
+  <data name="LoginError" xml:space="preserve">
+    <value>Username or password is incorrect</value>
+  </data>
+  <data name="Statut" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="EditProfil" xml:space="preserve">
+    <value>Edit Profil</value>
+  </data>
+  <data name="ViewProfil" xml:space="preserve">
+    <value>View Profil</value>
+  </data>
 </root>

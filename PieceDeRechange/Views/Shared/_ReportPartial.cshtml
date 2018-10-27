@@ -1,0 +1,18 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated && !Session["Groupe"].ToString().Equals("OPERATEUR"))
+{
+       @Html.AntiForgeryToken()
+        
+        <li class="btn-group nav">
+            <button type="button" class="btn navbar-btn" style="background-color:Highlight">Rapports</button>
+            <button type="button" class="btn navbar-btn dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li> @Html.ActionLink("Liste Employes", "GetEmployes", "Rapport")</li>
+                <li> @Html.ActionLink("Liste Pieces en Stock", "GetPiecesStock", "Rapport")</li>
+                <li> @Html.ActionLink("Liste Pieces Commandés", "GetPiecesCom", "Rapport")</li>
+            </ul>
+        </li>  
+}
